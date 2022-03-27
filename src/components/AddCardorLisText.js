@@ -19,17 +19,14 @@ const AddCardorLisText = ({type,setOpen,ListId}) => {
  
   const handleAddCardorList= ()=>{
     
-    console.log("🚀 ~ file: AddCardorLisText.js ~ line 32 ~ handleAddCardorList ~ handleAddCardorList", handleAddCardorList)
     if (type ==='card') {
       AddCard(title,ListId)
-      console.log("🚀 ~ file: AddCardorLisText.js ~ line 23 ~ handleAddCardorList ~ ListId", ListId)
       
     }else{
-      console.log("🚀 ~ file: AddCardorLisText.js ~ line 23 ~ handleAddCardorList ~ title",title )
       AddList(title)
     }
-/*     setTitle("")
- */ }
+     setTitle("")
+  }
   return (
     <ContainerCardText > 
    

@@ -22,10 +22,8 @@ export const mockData={
        "02list":{
         id:"02list",
         title:"in progress",
-        cards:[
-       
-       
-     ]
+        cards:[''
+        ]
    }
    
    
