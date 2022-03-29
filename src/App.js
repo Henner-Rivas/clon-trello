@@ -2,7 +2,7 @@ import './App.css';
 import TrelloList from './components/TrelloList';
 import { AppStyled,ContainerApp, Contenedor } from './components/styled-components/Styles';
 import AddCardorList from './components/AddCardorList';
-import {mockData} from './components/mockdata'
+import {mockData} from './mockdata'
 import { useState } from 'react';
 import ContextAPI from './hooks/ContextAPI';
 import uuid from 'react-uuid'
