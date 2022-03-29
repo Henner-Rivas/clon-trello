@@ -4,11 +4,11 @@ import { AddCard, Collapse } from "./styled-components/Styles";
 import AddCardorLisText from "./AddCardorLisText";
 
 const AddCardorList = ({ type,ListId }) => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   return (
     <>
-      <Collapse>
+      <Collapse >
         {open && <AddCardorLisText ListId={ListId} type={type} setOpen={setOpen} />}
       </Collapse>
 
